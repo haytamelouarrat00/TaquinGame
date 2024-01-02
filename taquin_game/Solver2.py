@@ -1,5 +1,4 @@
 from queue import Queue
-
 from taquin_base_game import *
 
 
