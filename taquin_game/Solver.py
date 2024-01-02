@@ -4,8 +4,6 @@ import itertools
 from taquin_base_game import *
 
 
-# The existing functions (create_table, are_adjacent, move_elt, print_table, get_elt, read_user_input, read_input, is_matrix_sorted) remain the same
-
 def manhattan_distance(matrix, target=9):
     total_distance = 0
     for i, row in enumerate(matrix):
@@ -70,7 +68,7 @@ def count_inversions(sequence):
     inversions = 0
     for i in range(len(sequence)):
         for j in range(i + 1, len(sequence)):
-            if sequence[i] > sequence[j] and sequence[i] != 9 and sequence[j] != 9:
+            if sequence[i] > sequence[j] != 9 and sequence[i] != 9:
                 inversions += 1
     return inversions
 

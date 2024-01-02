@@ -2,11 +2,13 @@
 import time
 
 from Solver import *
+from Solver2 import *
 
+SIZE = 3
 
 
 def main():
-    ai_game()
+    ai_game2()
 
 
 if __name__ == '__main__':
